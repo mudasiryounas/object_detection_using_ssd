@@ -1,7 +1,8 @@
 # Object detection using SSD with pre trained model
 
 
-###Libraries:
+## Libraries:
+
 imageio        2.9.0  
 imageio-ffmpeg 0.4.2  
 numpy          1.19.2  
