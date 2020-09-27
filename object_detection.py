@@ -45,12 +45,12 @@ def detect(frame, transform_frame_function, ssd_neural_network):
 
 def main():
     # read original video
-    reader = imageio.get_reader('demo1.mp4')
+    reader = imageio.get_reader('demos/demo1.mp4')
     original_video_meta_data = reader.get_meta_data()
     original_video_fps = original_video_meta_data['fps']
 
     # make writer for an emoty video
-    writer = imageio.get_writer('demo1_output.mp4', fps=original_video_fps)
+    writer = imageio.get_writer('demos/demo1_output.mp4', fps=original_video_fps)
     ssd_neural_network = load_pre_trained_model()
     transform_frame_function = transform_frame(ssd_neural_network)
 
