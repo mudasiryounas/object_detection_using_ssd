@@ -1,7 +1,14 @@
-# Object detection using SSD
+# Object detection using SSD with pre trained model
 
 
-**Libraries:**  pytorch, imageio
+###Libraries:
+imageio        2.9.0  
+imageio-ffmpeg 0.4.2  
+numpy          1.19.2  
+opencv-python  4.4.0.44  
+torch          1.6.0  
+torchvision    0.7.0  
+
 
 ## What is SSD?
 SSD is a method for detecting objects in an image using single neural network (thats why its called sibgle shot).
