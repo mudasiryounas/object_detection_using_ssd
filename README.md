@@ -20,3 +20,18 @@ results and try again.
 
 The already trained model 'ssd300_mAP_77.43_v2.pth' we are using in here is trained to detect 30-40 objects
 **Reference:** https://github.com/amdegroot/ssd.pytorch
+
+
+
+
+
+asd
+
+
+# Demo
+
+<p align="center"><img src="https://github.com/mudasiryounas/object_detection_using_ssd/blob/master/demo1-output.gif" width="550"></p>
+
+<p align="center"><img src="https://github.com/mudasiryounas/object_detection_using_ssd/blob/master/demo2-output.gif" width="550"></p>
+
+
