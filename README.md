@@ -25,8 +25,8 @@ The already trained model 'ssd300_mAP_77.43_v2.pth' we are using in here is trai
 
 # Demo
 
-<p align="center"><img src="https://github.com/mudasiryounas/object_detection_using_ssd/blob/master/demo1-output.gif" width="550"></p>
+<p align="center"><img src="https://github.com/mudasiryounas/object_detection_using_ssd/blob/master/demos/demo1-output.gif" width="550"></p>
 
-<p align="center"><img src="https://github.com/mudasiryounas/object_detection_using_ssd/blob/master/demo2-output.gif" width="550"></p>
+<p align="center"><img src="https://github.com/mudasiryounas/object_detection_using_ssd/blob/master/demos/demo2-output.gif" width="550"></p>
 
 

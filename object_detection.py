@@ -14,7 +14,7 @@ def load_pre_trained_model():
     # loading pre trained model
     # Loads an object saved with :func:`torch.save` from a file. this model is already trained to detect 30-40 objects
     # this will open a tensor that will contain our pre trained model's weights
-    pre_trained_model_tensors = torch.load('ssd300_mAP_77.43_v2.pth', map_location=lambda storage, loc: storage)  # loc: storage means return type is storage
+    pre_trained_model_tensors = torch.load('pre_trained_model/ssd300_mAP_77.43_v2.pth', map_location=lambda storage, loc: storage)  # loc: storage means return type is storage
     ssd_neural_network = build_ssd(phase='test')  # phase-> train, test (since we will only predict from pre trained model)
     ssd_neural_network.load_state_dict(pre_trained_model_tensors)  # this will attribute pre traied weiights to our ssd neural network
     return ssd_neural_network
