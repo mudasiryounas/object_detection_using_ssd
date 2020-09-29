@@ -12,7 +12,7 @@ torchvision    0.7.0
 
 ## What is SSD?
 SSD is a method for detecting objects in an image using single neural network (thats why its called sibgle shot).
-SSD detects positions of the objects by guessing and then calculating the erros, and if not satosfied then backpropagate to update
+SSD detects positions of the objects by guessing and then calculating the erros, and if not satisfied then backpropagate to update
 results and try again.
 
 
